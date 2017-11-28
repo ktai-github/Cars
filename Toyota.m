@@ -11,6 +11,7 @@
 
 @implementation Toyota
 
+//set the default model property to "Prius" when initialized
 -(instancetype)init
 {
   self = [super init];

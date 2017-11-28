@@ -10,6 +10,5 @@
 
 @interface Toyota : Car
 
-//-(instancetype)init;
 
 @end

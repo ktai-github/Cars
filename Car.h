@@ -11,7 +11,11 @@
 @interface Car : NSObject
 
 @property(nonatomic) NSString* model;
+
+//method to initialize with a model variable passed in
 -(instancetype)initWithModel:(NSString*) model;
+
+//method to print the car model
 -(void)drive;
 
 @end
