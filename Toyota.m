@@ -15,8 +15,8 @@
 -(instancetype)init
 {
   self = [super init];
-  if (self) {
-    self.model = @"Prius";
+  if (self = [super initWithModel:@"Prius"]) {
+//    self.model;
   }
   return self;
 }

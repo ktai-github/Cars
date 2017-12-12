@@ -21,6 +21,7 @@ int main(int argc, const char * argv[]) {
     
 //    create a new Toyota object called toyota (lower case) and use default initialization
     Toyota* toyota = [[Toyota alloc]init];
+//    Toyota* toyota = [[Toyota alloc]initWithModel:@"Prius"];
     
 //    use the drive method of the toyota car object
     [toyota drive];
