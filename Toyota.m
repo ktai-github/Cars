@@ -14,9 +14,7 @@
 //set the default model property to "Prius" when initialized
 -(instancetype)init
 {
-  self = [super init];
   if (self = [super initWithModel:@"Prius"]) {
-//    self.model;
   }
   return self;
 }
